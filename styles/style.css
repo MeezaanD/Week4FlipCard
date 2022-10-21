@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
 
 *,
 *::after,
@@ -23,7 +24,6 @@
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;    
 }
-/* Profile */
 .front {
     z-index: 20;    
 }
@@ -33,20 +33,23 @@
     object-fit: cover;
 }
 .back {
-    background-color: darkcyan;
+    background-color:black;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
 }
 .back h2 {
-    font-size: 3em;
-    text-shadow: .2vw .2vw .3vw white;
+    font-size: 6em;
+    text-shadow: .2vw .2vw .3vw lime;
+    font-family: 'Pompiere', cursive;
+
 }
 .back p {
-    font-size: 2em;
-    background-color: bisque;
-    margin: 2em 0;
+    font-size: 4em;
+    text-shadow: .2vw .2vw .3vw lime;
+    font-family: 'Pompiere', cursive;
+
 }
 .container:hover .front {
     transform: rotateY(180deg);
